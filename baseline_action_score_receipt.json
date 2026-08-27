@@ -1,0 +1,15 @@
+{
+  "rows": 30000,
+  "top_score": 0.8093498820395738,
+  "median_score": 0.32625305936073057,
+  "rule_inputs": [
+    "impressions_90d",
+    "days_since_last_update",
+    "avg_position"
+  ],
+  "score_formula": "0.60*visibility + 0.25*staleness*visibility + 0.15*position_opportunity*visibility",
+  "signal_verdicts": {
+    "staleness": "CONFIRMED",
+    "position_and_volume": "CONFIRMED"
+  }
+}
